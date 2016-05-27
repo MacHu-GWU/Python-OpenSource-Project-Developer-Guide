@@ -39,6 +39,10 @@ sphinx是Python社区用于自动生成文档网站的工具。可以用来生�
 
 **注意**: 如果你的包依赖其他第三方包, 那么就需要设置在ReadTheDocs的dashboard设置requirements.txt, 以及virtual environment。requirements.txt告诉ReadTheDocs在build的时候要安装哪些依赖的包, virtual env能配置出合适的虚拟环境。这是因为sphinx在build网页的时候, 要保证包里所有的模块都是可以被import的。这算是使用ReadTheDocs的一个复杂的地方。
 
+.. raw:: html
+
+	<span style="background-color: #FFFF00">注意! ReadTheDocs只接受纯英文文档, 若文档中有中文(例如本篇), 则无法使用该服务</span>
+
 
 .. _readthedocs_quickguide:
 

@@ -25,7 +25,7 @@
 还记得上一章我们 :ref:`在介绍项目的Layout时 <create_repository>` 提到, 我们可以使用自动化脚本生成 ``setup.py`` 文件, 而不需要手动输入。我建议, 参考本例之后, 创建了你自己的 ``setup.py`` 文件之后, 也将其做成自动化脚本。使得每当你需要开发一个新项目时, 只需要改变几个关键的变量的值, 即可轻松使用。
 
 
-有关 ``setup.py`` 的详细设置, 请参考这篇文档 :ref:`<setup_script>`
+有关 ``setup.py`` 的详细设置, 请参考 :ref:`这篇文档 <setup_script>`。
 
 
 第三步, 创建 ``MANIFEST.in``, ``requirements.txt``, ``README.rst`` 文件
